@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+    font-family: "Pacifico";
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(200, 63, 228);
+}
+
+.container{
+    width: 100%;
+    margin: 0 20%;
+    padding: 2rem 10%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-items: center;
+    gap: .5rem;
+    background: yellow;
+}
+
+.key{
+    background: #f1f1f1;
+    padding: 2rem;
+    margin: 0;
+    border-radius: 1rem;
+}
+
